@@ -2,3 +2,7 @@
 当使用git init 后，yssgit目录成为本地仓库目录，它包含一个.git仓库
 test文件修改后放在工作区，用git add test.txt使其放到暂存区
                           用git commit -m '注释说明更改' 使其放到版本库
+git diff   查看修改内容
+git log    查看修改日志
+git reflog 查看历史的命令操作
+git log --pretty=oneline   查看提交的各个版本号：
